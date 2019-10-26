@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Weather Forecast</string>
+    <string name="city_field">Enter city name</string>
+    <string name="button_temp">Temperature</string>
+    <string name="button_forecast">Forecast</string>
+    <string name="list_view_field">List:</string>
+</resources>

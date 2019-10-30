@@ -11,15 +11,12 @@ class WeatherCurrentTemp {
     @SerializedName("main")
     private Map<String, Float> measurements;
 
-    private Map<String, Float> getMeasurements() {
+    Map<String, Float> getMeasurements() {
         return measurements;
     }
 
-    public String getName() {
+    String getName() {
         return name;
     }
 
-    public String toStrings(){
-        return "Temperature in " + name + " is " + measurements;
-    }
 }
